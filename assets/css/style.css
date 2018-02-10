@@ -239,39 +239,95 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 980px) {
-  .header {
+  #masthead {
     position: static;
+  }
+  .container {
+    padding: 0 100px;
+    max-width: 100%;
+  }
+  .main-section {
+    max-width: 60%;
+  }
+  .auth-image {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header {
+  #masthead {
     position: static;
+    padding-right: 20px;
   }
   .sidebar {
-    margin-bottom: 20px;
     max-width: 100%;
   }
   .main-section {
-    margin-bottom: 20px;
+    max-width: 100%;
+    margin-top: 0;
   }
+  #main-container {
+    padding-top: 0;
+  }
+.container {
+  padding: 0 20px;
+}
+.auth-image {
+  float: left;
+  width: 33%;
+  margin-bottom: 0;
+}
   #connect {
     text-align: center;
-
+  }
+  .social {
+    width: 25%;
+    height: auto;
+    padding: 0 20px;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  .header {
+  #masthead {
     position: static;
   }
+  .container {
+    padding-top: 0px;
+    float: none;
+  }
   .sidebar {
-    margin-bottom: 20px;
     max-width: 100%;
   }
   .main-section {
-    margin-bottom: 20px;
+    max-width: 100%;
   }
   #connect {
     text-align: center;
+  }
+  .social {
+    width: 25%;
+    height: auto;
+    padding: 0 20px;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav {
+    float: left;
+    text-align: center;
+    margin-top: 0;
+  }
+  #main-container {
+    padding-top: 0;
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .work {
+    width: 100%;
   }
 }
