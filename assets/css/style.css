@@ -316,7 +316,7 @@ input[type="submit"] {
     width: 100%;
   }
   nav {
-    float: left;
+    padding:10px 175px 10px 0;
     text-align: center;
     margin-top: 0;
   }
