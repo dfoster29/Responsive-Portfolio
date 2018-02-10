@@ -255,6 +255,9 @@ input[type="submit"] {
     float: none;
     margin-bottom: 20px;
   }
+  #main-container {
+    padding-top: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
